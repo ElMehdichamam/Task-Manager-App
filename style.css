@@ -184,6 +184,11 @@ body{
     .container{
         flex-direction: column;
     }
+    .box{
+        flex-direction: column;
+        align-items: center;
+    }
+   
 }
 
 /* ANIMATIONS */
