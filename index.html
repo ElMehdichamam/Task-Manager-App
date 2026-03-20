@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- To-do Tasks -->
+        <div class="task" id="left">
+            <div class="title">
+                <div class="compenent1">
+                    <div class="c1"></div> 
+                    <p>To-do Tasks</p>
+                </div>
+            </div>
+
+              <div class="Add">
+                    <p>Add a Task</p>
+                    <button class="btn" id="btn">+</button>
+                </div>
+            <div class="tasks1" id="tasks1">
+
+            </div>
+               
+           
+        </div>
+        <!-- In Progress -->
+
+        <div class="task" id="mid">
+             <div class="title">
+                <div class="compenent1">
+                    <div class="c2"></div> 
+                    <p>In Progress Tasks</p>
+                </div>
+                 
+            </div>
+
+        </div>
+
+        <!-- Done -->
+        <div class="task" id="right">
+             <div class="title">
+                <div class="compenent1">
+                    <div class="c3"></div> 
+                    <p> Done Tasks</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Customized Alert -->
+
+    <div class="all" id="all">
+    <div class="box">
+        <input type="text" placeholder="Add Task :" class="input" id="in" required> 
+        <input type="text"  id="topic" class="input" placeholder="Add Topic :" required>
+        <input type="color" class="color" id="color" required>
+        <button class="button" id="add">Add</button>
+    </div>
+</div>
+<div class="delete" id="del"><i class="fa-solid fa-trash" style="color: rgb(121, 117, 117);"></i></div>
+    <script src="app.js"></script>
+</body>
+</html>
